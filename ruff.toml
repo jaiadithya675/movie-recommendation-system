@@ -1,0 +1,8 @@
+line-length = 120
+extend-exclude = ["notebooks"]
+
+[lint]
+select = ["E", "F", "I"]
+
+[lint.per-file-ignores]
+"scripts/build_notebook.py" = ["E501"]
